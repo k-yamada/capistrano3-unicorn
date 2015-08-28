@@ -16,6 +16,10 @@ You can override the defaults by `set :unicorn_example, value` in the `config/de
 
 Example Unicorn config [examples/unicorn.rb](https://github.com/tablexi/capistrano3-unicorn/blob/master/examples/unicorn.rb)
 
+- `:rails_root`
+
+    If rails root dir is in the subdirectory, set rails root dir.
+
 - `:unicorn_pid`
 
     Default assumes your pid file will be located in `CURRENT_PATH/tmp/pids/unicorn.pid`. The unicorn_pid should be defined with an absolute path.
